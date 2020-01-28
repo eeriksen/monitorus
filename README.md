@@ -1,2 +1,2 @@
-# uptime
+# Uptime Monitor
 Uptime Monitor
