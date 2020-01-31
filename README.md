@@ -1,2 +1,2 @@
-# Uptime Monitor
-Uptime Monitor
+# Monitorus
+Application lifecycle and uptime monitor
