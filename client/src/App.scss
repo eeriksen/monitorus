@@ -1,0 +1,21 @@
+@import "base";
+
+:global(*) {
+    box-sizing: border-box;
+}
+
+:global(body) {
+    background-color: $color--background;
+    font-family: $fontFamily--primary;
+    line-height: $lineHeight--regular;
+    font-size: $fontSize--regular;
+    color: $color--base;
+    margin: 0;
+}
+
+.container {
+    .content {
+        margin: 100px auto;
+        max-width: 900px;
+    }
+}

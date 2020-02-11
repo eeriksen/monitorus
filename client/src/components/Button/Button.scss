@@ -1,0 +1,18 @@
+@import "../../base";
+
+button {
+    background-color: transparent;
+    font-family: $fontFamily--primary;
+    font-size: $fontSize--regular;
+    border-radius: $borderRadius--regular;
+    height: $element--regular;
+    padding: 0 $spacing--medium;
+    border: 2px solid $color--base;
+    color: $color--base;
+    cursor: pointer;
+
+    &:active {
+        background-color: $color--base;
+        color: $color--background;
+    }
+}

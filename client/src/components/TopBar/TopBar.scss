@@ -1,0 +1,32 @@
+@import "../../base";
+
+$bar-size: $element--big;
+
+.base {
+    position: absolute;
+    top: $spacing--regular;
+    left: $spacing--regular;
+    right: $spacing--regular;
+    height: $bar-size;
+
+    .logo {
+        font-size: $fontSize--medium;
+        line-height: $bar-size;
+        padding: 0 $spacing--regular;
+    }
+
+    .add {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: $bar-size;
+        width: $bar-size;
+        background-color: #fff;
+        border-radius: 50%;
+
+        &:active {
+            background-color: red;
+            cursor: pointer;
+        }
+    }
+}

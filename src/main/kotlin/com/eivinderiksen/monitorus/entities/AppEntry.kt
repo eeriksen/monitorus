@@ -1,4 +1,4 @@
-package com.eivinderiksen.monitorus.model
+package com.eivinderiksen.monitorus.entities
 
 import javax.persistence.*
 

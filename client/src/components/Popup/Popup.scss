@@ -1,0 +1,36 @@
+@import "../../base";
+
+.popup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba($color--background, 0.85); */
+    backdrop-filter: blur(5px);
+}
+
+.box {
+    border-radius: $borderRadius--regular;
+    background-color: $color--background;
+    color: $color--base;
+    min-width: 500px;
+
+    .title {
+        padding: $spacing--medium $spacing--medium 0;
+        font-size: $fontSize--medium;
+    }
+
+    .content {
+        padding: $spacing--medium;
+        min-height: 100px;
+    }
+
+    .actions {
+        padding: $spacing--medium $spacing--medium;
+    }
+}
+
